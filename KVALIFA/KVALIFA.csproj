@@ -46,14 +46,80 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="frmCourse.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmCourse.designer.cs">
+      <DependentUpon>frmCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainMenu.Designer.cs">
+      <DependentUpon>frmMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOneGraphics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOneGraphics.designer.cs">
+      <DependentUpon>frmOneGraphics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProgramMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProgramMenu.Designer.cs">
+      <DependentUpon>frmProgramMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTeory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTeory.Designer.cs">
+      <DependentUpon>frmTeory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTitle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTitle.Designer.cs">
+      <DependentUpon>frmTitle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTwoGraphics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTwoGraphics.designer.cs">
+      <DependentUpon>frmTwoGraphics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserGuide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserGuide.Designer.cs">
+      <DependentUpon>frmUserGuide.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmCourse.resx">
+      <DependentUpon>frmCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainMenu.resx">
+      <DependentUpon>frmMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOneGraphics.resx">
+      <DependentUpon>frmOneGraphics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProgramMenu.resx">
+      <DependentUpon>frmProgramMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTeory.resx">
+      <DependentUpon>frmTeory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTitle.resx">
+      <DependentUpon>frmTitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTwoGraphics.resx">
+      <DependentUpon>frmTwoGraphics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserGuide.resx">
+      <DependentUpon>frmUserGuide.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +128,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -72,9 +139,88 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\userGuideCourse.rtf" />
+    <None Include="Resources\userGuideOneGraphic.mht" />
+    <None Include="userGuideCourse.files\themedata.thmx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closeR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProgramPart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn1Gr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn2Gr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnCourse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnToMainMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnCourse1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnToMainMenu1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frmCourse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\One Graphics.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Two Graphics.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Main Menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table-of-content %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userGuideCourse.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\userGuideCourse.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-verde-8.jpg" />
+    <None Include="Resources\1748344.jpg" />
+    <None Include="Resources\Play.png" />
+    <None Include="Resources\ico_play_big.png" />
+    <None Include="Resources\10261578.jpg" />
+    <None Include="Resources\10261578.png" />
+    <Content Include="userGuideCourse.files\colorschememapping.xml" />
+    <Content Include="userGuideCourse.files\filelist.xml" />
+    <Content Include="userGuideCourse.files\image001.png" />
+    <Content Include="userGuideCourse.files\image002.png" />
+    <Content Include="userGuideCourse.htm" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
