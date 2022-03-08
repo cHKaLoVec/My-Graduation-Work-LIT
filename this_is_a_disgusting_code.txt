@@ -1,0 +1,9 @@
+The more I study programming, the more I realize that the project is built wrong, the written code - it's hard to call even bad. 
+It's as if it was written by someone who just learned what programming is all about. But in fact it is. 
+I will try in my spare time to rework it into normal code. 
+
+ Mistakes:
+  - Copying code 
+  - Missing access modifiers
+  - Incorrect variable names 
+  - etc.
